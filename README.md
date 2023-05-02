@@ -11,7 +11,7 @@ Usamos Grafana para poder visualizar datos mediante gráficos.
 
 ## Prometheus con Grafana
 
-1. mvn clean package
+1. mvn clean install
 2. docker-compose up -d
 3. En Grafana podemos añadir Prometheus como fuente de datos --> Home > Administration > Data sources > Add data source, seleccionar prometheus
 4. Crear dashboard en Grafana para ver gráficos --> Home > Dashboards > New dashboard
